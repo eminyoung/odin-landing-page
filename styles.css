@@ -129,4 +129,20 @@ button {
 }
 
 /*Bottom Section*/
+.banner {
+    flex: 1;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 50px 100px;
+}
+
+.text {
+    gap: 8px;
+}
+
+.sign-button {
+    border: 2px solid #F9FAF8;
+}
 
