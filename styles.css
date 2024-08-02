@@ -1,3 +1,4 @@
+/*General*/
 body {
     margin: 0px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -10,9 +11,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 200px 100px 200px;
+    padding: 100px 200px 100px 200px;
 }
 
+/*Header*/
 .header {
     background-color: #1F2937;
     justify-content: space-between;
@@ -45,6 +47,7 @@ font-size: 16px;
 text-decoration: none;
 }
 
+/*Top Section*/
 .top {
     display: flex;
     justify-content: space-between;
@@ -70,9 +73,11 @@ button {
 
 }
 
+/*Middle Section*/
 .middle {
     background-color: white;
     flex-direction: column;
+    padding-top: 50px;
     gap: 50px;
 }
 
@@ -101,7 +106,26 @@ button {
     border-radius: 15px;
 }
 
+/*Quote Section*/
 .quote {
     background-color: #E5E7EB;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    align-self: center;
+}
+
+.quote-person {
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 20px;
 }
 
